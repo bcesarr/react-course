@@ -1,11 +1,11 @@
-import './styles.css'
-import Logo from "../../assets/company_logo.svg"  // Importamos o logo chamando de "Logo" e buscamos o caminho da pasta assim.
+import './style.css'
+import logo from "../../assets/company-logo.svg"  // Importamos o logo chamando de "Logo" e buscamos o caminho da pasta assim.
 import icone_seta_para_baixo from "../../assets/icons/icone_seta_para_baixo.svg"
 
 export default function Header() {
     return (
         <header>
-            <img src={Logo} alt="logomarca da empresa" />
+            <img src={logo} alt="logomarca da empresa" />
 
             <nav>
                 <a href="#">Link One</a>
