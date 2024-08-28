@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 460px;
+    background-color:rgb(146, 146, 146);
+    border: 3px solid rgb(44, 44, 44);
+    border-radius: 20px;
+}
+
+.card:hover{
+    border: 3px solid rgb(116, 0, 116);
+}
+
+.card > img{
+    width: 150px;
+    height: 150px;
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 18px;
+    gap: 15px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+.text-wrapper h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.type p:hover {
+    color: rgb(98, 0, 163);
+    transition: 0.2s;
+}
+
+.type span:hover {
+    color: rgb(176, 0, 230);
+    transition: 0.2s;
+}
+
+.Weaknesses p:hover {
+    color: rgb(211, 0, 0);
+    transition: 0.2s;
+}
