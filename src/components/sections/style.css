@@ -1,0 +1,61 @@
+/* Configuração Geral da Página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hero da Página */
+.hero {   /* Toda a Section do Hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero img {   /* Imagem do Lado Direito do Hero */
+    width: 616px;
+    height: 640px;
+    margin-right: 64px;
+}
+
+.hero-infos {   /* Div do Hero com as Informações do Lado Esquerdo */
+    margin-left: 64px;
+}
+
+.hero-infos h2 {
+    font-size: 56px;
+}
+
+.hero-infos p {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.email-button {   /* Div com o Campo de Input e o Botão */
+    display: flex;  
+    margin-bottom: 16px;
+    gap: 16px;
+}
+
+.email-button input {
+    width: 357px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+.email-button button {
+    width: 140px;
+    height: 48px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.hero-infos span {
+    font-size: 12px;
+}
