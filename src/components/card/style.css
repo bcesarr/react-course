@@ -6,7 +6,8 @@
     font-family: "Roboto", sans-serif;
 }
 
-.card{
+/* Configuração do Card do Pokemon */
+/* .card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,4 +68,33 @@ h3 {
 .Weaknesses p:hover {
     color: rgb(211, 0, 0);
     transition: 0.2s;
+} */
+
+.section-cards {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.div-cards-global {
+    display: flex;
+    gap: 48px;
+}
+
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-infos img {
+    width: 36px;
+    height: 40px;
+}
+
+.card-infos h3 {
+    font-size: 24px;
+}
+
+.card-infos p {
+    font-size: 16px;
 }
