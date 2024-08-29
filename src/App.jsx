@@ -187,21 +187,27 @@ export default function App(){
 
 // Exportando os cards abaixo do hero da página - arquivo index da pasta card
 
-import Card from './components/card'
-import Cubo from './assets/cubo.svg'
+// import Card from './components/card'
+// import Cubo from './assets/cubo.svg'
+
+// export default function App() {
+//   return <Card
+//     image={Cubo}
+
+//     imgAlt="Imagem de um cubo pequeno"
+
+//     paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+    
+//   />
+// }
+
+
+// Exportando a home com todos os componentes
+import Home from '../src/pages/home'
 
 export default function App() {
-  return <Card
-    image={Cubo}
-
-    imgAlt="Imagem de um cubo pequeno"
-
-    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
-    
-  />
+  return <Home />
 }
-
-
 
 
 
