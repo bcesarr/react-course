@@ -1,7 +1,11 @@
-import Header from "../../components/header";
+import { Header, Sections } from "../../components";
 
 export default function Home() {
     return (
-        <Header />
+        <body>
+            <Header />
+            <Sections />
+            
+        </body>
     )
 }
