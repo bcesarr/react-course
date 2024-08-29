@@ -13,17 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 64px;
+    padding-left: 64px;
     gap: 80px;
 }
 
 .hero img {   /* Imagem do Lado Direito do Hero */
     width: 616px;
     height: 640px;
-    margin-right: 64px;
-}
-
-.hero-infos {   /* Div do Hero com as Informações do Lado Esquerdo */
-    margin-left: 64px;
 }
 
 .hero-infos h2 {

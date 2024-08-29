@@ -1,13 +1,13 @@
 import './style.css'
 import placeholder from '../../assets/placeholder-Image.svg'
 
-export default function Sections() {
+export default function Hero() {
     return (
         // Hero da Página
         <section className='hero'>
             <div className='hero-infos'>
-                <h2>Resonate with the visitor's problem</h2>
-                <p>Describe exactly what your product or service does to solve this problem. Avoid using verbose words or phrases.</p>
+                <h2>Resonate with the<br />visitor's problem</h2>
+                <p>Describe exactly what your product or service does to solve this problem.<br /> Avoid using verbose words or phrases.</p>
 
                 <div className='email-button'>
                     <input type="email" placeholder=' Enter your email' />
@@ -22,5 +22,6 @@ export default function Sections() {
             <img src={placeholder} alt="Imagem de um local vazio na pag, esperando uma imagem ser adicionada" />
 
         </section>
+
     )
 }
