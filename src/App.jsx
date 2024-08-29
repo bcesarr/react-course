@@ -1,3 +1,4 @@
+// Inicio do Programa
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -173,12 +174,32 @@ export default function App(){
 
 
 // Exportando a section da Landinpag - arquivo index da pasta sections
-import Sections from './components/sections'
+
+// import Sections from './components/sections'
+
+// export default function App() {
+//   return <Sections />
+// }
+
+
+// ----------------------------------------------------------------------- \\
+
+
+// Exportando os cards abaixo do hero da página - arquivo index da pasta card
+
+import Card from './components/card'
+import Cubo from './assets/cubo.svg'
 
 export default function App() {
-  return <Sections />
-}
+  return <Card
+    image={Cubo}
 
+    imgAlt="Imagem de um cubo pequeno"
+
+    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+    
+  />
+}
 
 
 
