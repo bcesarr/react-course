@@ -6,7 +6,9 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 /* Configuração do Card do Pokemon */
+
 /* .card{
     display: flex;
     justify-content: center;
@@ -70,7 +72,10 @@ h3 {
     transition: 0.2s;
 } */
 
-.section-cards {
+
+/* ----- Card com Todos os Cards Dentro (Beneficit) ----- */
+
+/* .section-cards {
     margin-top: 112px;
     padding-left: 64px;
     padding-right: 64px;
@@ -98,4 +103,35 @@ h3 {
 
 .card-infos p {
     font-size: 16px;
+} */
+
+
+/* ----- Card Dinâmico ----- */
+
+.card-container-global {
+    display: flex;
+    margin-top: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.card img {
+    width: 36px;
+    height: 40px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+}
+

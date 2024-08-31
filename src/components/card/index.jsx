@@ -1,5 +1,3 @@
-import './style.css'
-
 // Está importação da imagem abaixo é para o modelo do módo tradicional
 // import cubo from '../../assets/cubo.svg'
 
@@ -73,41 +71,62 @@ import './style.css'
 
 // Forma de fazer utilizando as Props
 
-export default function Card({paragraph, image, imgAlt}) {
+// Se tivermos estes 3 cards dentor do card, este componente seria um "Benefit"
+
+// export default function Card({paragraph, image, imgAlt}) {
+//   return (
+//     <section className='section-cards'>
+
+//       <div className='div-cards-global'>
+
+//         <div className='card-infos'>
+//           <img src={image} alt={imgAlt}/>
+
+//           <h3>Highlight benefit one</h3>
+
+//           <p>{paragraph}</p>
+
+//         </div>
+        
+//         <div className='card-infos'>
+//           <img src={image} alt={imgAlt}/>
+
+//           <h3>Highlight benefit two</h3>
+
+//           <p>{paragraph}</p>
+
+//         </div>
+        
+//         <div className='card-infos'>
+//           <img src={image} alt={imgAlt}/>
+
+//           <h3>Highlight benefit three</h3>
+
+//           <p>{paragraph}</p>
+
+//         </div>
+
+//       </div>
+
+//     </section>
+//   )
+// }
+
+//  ---------- Card Dinamico ----------  \
+import './style.css'
+
+export default function Card ({image, imgAlt, title, paragraph}) {
   return (
-    <section className='section-cards'>
-
-      <div className='div-cards-global'>
-
-        <div className='card-infos'>
-          <img src={image} alt={imgAlt}/>
-
-          <h3>Highlight benefit one</h3>
-
-          <p>{paragraph}</p>
-
-        </div>
+    <div className='card-container-global'>
         
-        <div className='card-infos'>
-          <img src={image} alt={imgAlt}/>
+        <div className='card'>
+            <img src={image} alt={imgAlt}/>
 
-          <h3>Highlight benefit two</h3>
+            <h3>{title}</h3>
 
-          <p>{paragraph}</p>
-
-        </div>
-        
-        <div className='card-infos'>
-          <img src={image} alt={imgAlt}/>
-
-          <h3>Highlight benefit three</h3>
-
-          <p>{paragraph}</p>
-
+            <p>{paragraph}</p>
         </div>
 
-      </div>
-
-    </section>
-  )
+    </div>
+    )
 }
