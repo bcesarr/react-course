@@ -218,9 +218,25 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // }
 
 
-// Exportando a home com todos os componentes
-import Home from '../src/pages/home'
+// ------------------------------------------------------------------ \\
+
+
+// // Exportando a home com todos os componentes
+// import Home from '../src/pages/home'
+
+// export default function App() {
+//   return <Home />
+// }
+
+
+// ------------------------------------------------------------------ \\
+
+// Exportando Brand da pasta componentes e utilizando Switch
+
+import Brand from './components/brand'
 
 export default function App() {
-  return <Home />
+  return <Brand 
+          brand="master"
+          />
 }
