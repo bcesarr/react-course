@@ -5,7 +5,7 @@ import Cubo from "../../assets/cubo.svg"
 
 export default function Home() {
     return (
-        <body>
+        <div className="app-container">
             <Header />
             <Sections />
             <Card
@@ -13,10 +13,34 @@ export default function Home() {
 
                 imgAlt="Imagem de um cubo pequeno"
 
+                title="Highlight benefit one"
+
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
 
             />
 
-        </body>
+            <Card
+                image={Cubo}
+
+                imgAlt="Imagem de um cubo pequeno"
+
+                title="Highlight benefit two"
+
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+
+            />
+
+            <Card
+                image={Cubo}
+
+                imgAlt="Imagem de um cubo pequeno"
+
+                title="Highlight benefit three"
+
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+
+            />
+
+        </div>
     )
 }
