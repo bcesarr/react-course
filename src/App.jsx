@@ -222,21 +222,49 @@ export default function App(){    // O "default" só pode ser usado uma vez
 
 
 // // Exportando a home com todos os componentes
-// import Home from '../src/pages/home'
+import Home from '../src/pages/home'
+
+export default function App() {
+  return <Home />
+}
+
+
+// ------------------------------------------------------------------ \\
+
+// Exportando Brand da pasta componentes - brand e utilizando Switch
+
+// import Brand from './components/brand'
 
 // export default function App() {
-//   return <Home />
+//   return <Brand 
+//           brand="master"
+//           />
 // }
 
 
 // ------------------------------------------------------------------ \\
 
-// Exportando Brand da pasta componentes e utilizando Switch
 
-import Brand from './components/brand'
+//  Exportando Square da pasta componentes - square
 
-export default function App() {
-  return <Brand 
-          brand="master"
-          />
-}
+// import Square from './components/square'
+
+// export default function App() {
+//   return (
+//     <div className="app-container">
+//       <Square color="green"/>
+//     </div>
+//   )
+// }
+
+
+// ------------------------------------------------------------------ \\
+
+
+//  Exportando Hero da pasta componentes - hero
+
+// import Hero from './components/hero'
+
+// export default function App() {
+//   return <Hero aligment="right"/>
+// }

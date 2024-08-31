@@ -8,6 +8,9 @@ export default function Home() {
         <div className="app-container">
             <Header />
             <Sections />
+            
+            <div className="card-container">
+
             <Card
                 image={Cubo}
 
@@ -41,6 +44,8 @@ export default function Home() {
 
             />
 
+            </div>
+            
         </div>
     )
 }
