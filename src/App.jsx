@@ -123,10 +123,16 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // Utilizando o tipo Boolean
 
 // function Filho ({approved}){
-//   return( <>
+//   return(
+//        <>
+
+// // Explicação da função ternario - isso é verdadeiro ? retorno : (se não) retorno
+
 //       {/* {approved ? <p>Aprovado!</p> : <p>Reprovado</p> }*/} {/* Isto é verdadeiro ? Retorno :(se não) retorno */}
-//       {approved ? <img src="https://pa1.aminoapps.com/6502/0683711d56279455df90340a7192f9c620ea0553_hq.gif" alt="Bob Esponja fazendo joia" /> : <img src ="https://64.media.tumblr.com/2ddc057ed19e3f8f33efdcd029eff929/7d8c724997a7417c-ba/s540x810/cfad0f3422858b0135351069801e26a131782250.gifv" alt="Bob Esponja chorando" /> } 
-//     </> // O nome desta tag é fragmento
+
+          // {approved ? <img src="https://media.tenor.com/GNBVFfe7qzAAAAAM/arrogant-gumball-watterson.gif" alt="Gumball de terno se achando" /> : <img src="https://media.tenor.com/ctxzq2YvLXgAAAAM/gumball-darwin.gif" alt="Gumball e Darwin Triste" />}
+
+//        </> // O nome desta tag é fragmento
 //   )
 // }
 
@@ -141,23 +147,33 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // (Sétima Parte)
 // Uso de props com evento onClick
 
-// function Filho({onAlert}){
-//   return <button onClick={onAlert}>Receba seu alert</button>
+// Uso da Prop com evento onClick
+// Podemos fazer assim:
+// export default function App () {
+
+//     Outro exemplo:
+//     return <button onClick={() => console.log("Função Funcionando")}>Click Aqui</button>
+
+//     Ultimo jeito feito:
+//     return <button onClick={() => alert ("Função funcionando")}
+//     >Click Aqui</button>
 // }
 
-// export default function App(){
-//   const handleAlert = () => alert("Funcionou")
-//   return <Filho onAlert={handleAlert} />
 
-//   // return <Filho onAlert={() => alert("Funcionou")} /> // Não é uma boa prática jogar o arrow function direto
+// Segundo parte fazemos assim:
+// function Filho ({ onAlert }) {
+//     return <button onClick={onAlert}>Receba seu alert</button>
 // }
 
-/* 
-export default function App(){
-  // return <button onClick={() => console.log("Função Funcionando")}>Click Aqui</button>
-  return <button onClick={() => alert("Função Funcionando")}>Click Aqui</button>
-}
-*/
+// export default function App () {
+//     const handleAlert = () => alert("Receba seu doce")
+//     return <Filho onAlert={handleAlert} />
+
+//     Outro jeito de fazer:
+//     return <Filho onAlert={() => alert("Funcionou")} /> // Não é uma boa prática jogar o arrow function direto, deste jeito
+
+// }
+
 
 
 // (Oitava Parte)
