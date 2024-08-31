@@ -117,8 +117,6 @@ import './style.css'
 
 export default function Card ({image, imgAlt, title, paragraph}) {
   return (
-    <div className='card-container-global'>
-        
         <div className='card'>
             <img src={image} alt={imgAlt}/>
 
@@ -127,6 +125,5 @@ export default function Card ({image, imgAlt, title, paragraph}) {
             <p>{paragraph}</p>
         </div>
 
-    </div>
     )
 }

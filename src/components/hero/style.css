@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.hero-container img {
+    width: 516px;
+    height: 540px;
+    margin-right: 80px;
+}
+
+.hero-text h6 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.hero-text h2 {
+    font-size: 46px;
+    margin-bottom: 24px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.hero-text button {
+    width: 129px;
+    height: 48px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+/* Para Mudar o Hero para o Lado Direito */
+
+.hero-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
