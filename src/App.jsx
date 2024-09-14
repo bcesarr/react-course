@@ -220,13 +220,14 @@ export default function App(){    // O "default" só pode ser usado uma vez
 
 // ------------------------------------------------------------------ \\
 
+// Atual antes da aula 7
 
 // // Exportando a home com todos os componentes
-import Home from '../src/pages/home'
+// import Home from '../src/pages/home'
 
-export default function App() {
-  return <Home />
-}
+// export default function App() {
+//   return <Home />
+// }
 
 
 // ------------------------------------------------------------------ \\
@@ -268,3 +269,14 @@ export default function App() {
 // export default function App() {
 //   return <Hero aligment="right"/>
 // }
+
+
+// ------------------------------------------------------------------ \\
+
+
+// Aula 8
+import Count from './class/hooks/useState/count'
+
+export default function App () {
+  return <Count />
+}
