@@ -275,8 +275,16 @@ export default function App(){    // O "default" só pode ser usado uma vez
 
 
 // Aula 8
-import Count from './class/hooks/useState/count'
+// import Count from './class/hooks/useState/count'
+
+// export default function App () {
+//   return <Count />
+// }
+
+// ------------------------------------------------------------------ \\
+
+import Accordion from './class/hooks/useState/accordion'
 
 export default function App () {
-  return <Count />
+  return <Accordion />
 }
