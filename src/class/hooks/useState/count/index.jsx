@@ -7,7 +7,6 @@ export default function Count() {
     const [count, setCount] = useState(0)
 
     // tradicional function
-
     function handleCount() {
         setCount(count + 1)
     }
@@ -22,5 +21,5 @@ export default function Count() {
             {/* Ou podemos utilizar a função / método tradicional: */}
             <button onClick={handleCount}>Click Aqui</button>
         </div>
-    )
+    );
 }

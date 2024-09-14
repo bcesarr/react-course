@@ -16,7 +16,7 @@ export default function Accordion () {
                 <button onClick={ () => setIsOpen (!isOpen) }> {isOpen ? <ArrowUp color="red" size={18}/> : <ArrowDown color="red" size={18}/>} </button>
             </div>
             
-            {/* Função Ternario: Ele defini que só mostrará esta div e seu conteúdo quando o "useState" for "True". Os dois ecomerciais - "&&" serve para definir que não a outra opção além da já estabelecida (no caso, false, lá no "useState") */}
+            {/* Função Ternario: Ele defini que só mostrará esta div e seu conteúdo quando o "useState" for "True". Os dois e-comerciais - "&&" serve para definir que não a outra opção além da já estabelecida (no caso, false, lá no "useState") */}
             {isOpen && (
             <div className="accordion-content">
                 <p>Sei fazer um accordion jsx com hook</p>
@@ -24,5 +24,5 @@ export default function Accordion () {
             )}
 
         </div>
-    )
+    );
 }
