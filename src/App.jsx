@@ -281,10 +281,48 @@ export default function App(){    // O "default" só pode ser usado uma vez
 //   return <Count />
 // }
 
-// ------------------------------------------------------------------ \\
 
-import Accordion from './class/hooks/useState/accordion'
+// ------------------------------------------------------------------ \\
+// Importando o Accordion
+
+// import Accordion from './class/hooks/useState/accordion'
+
+// export default function App () {
+//   return (
+//     <div className='app-container'>
+//       <Accordion />
+//     </div>
+//   );
+// }
+
+
+// ------------------------------------------------------------------ \\
+// Importando o Example de useEffect
+
+// import Example from './class/hooks/useState/useEffect/example'
+
+// export default function App () {
+//   return (
+//     <div className='app-container'>
+//       <Example />
+//     </div>
+//   );
+// }
+
+
+// ------------------------------------------------------------------ \\
+// Importando o CountEffect com useEffect e useState
+
+import CountEffect from './class/hooks/useState/useHooks/countEffect'
 
 export default function App () {
-  return <Accordion />
+  return (
+    <div className='app-container'>
+      <CountEffect />
+    </div>
+  );
 }
+
+
+// ------------------------------------------------------------------ \\
+
