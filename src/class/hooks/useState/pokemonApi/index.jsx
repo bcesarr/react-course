@@ -20,6 +20,7 @@ export default function PokemonApi () {
         // O primeiro ".then" me tras somente a resposta dos dados abstratos.
         .then((res) =>  res.json())
 
+            
         // // O segundo ".then" me trás a resposta que queremos de fato.
         // Código de antes - .then((data) => console.log(data), "data")
 
@@ -57,9 +58,9 @@ export default function PokemonApi () {
         <div>
             <h1>Lista de Pokemons</h1>
             <ul>
-                {/* Aqui, preciso abrir estas chaves, isso se chama:  */}
+                {/* Aqui, preciso abrir estas chaves para poder relacionar o jsc com o html e englobar o "map" para devolver a array dentro da "<ul>"", criando varias "<li>" para cada pokemon da Api */}
                 {
-                    pokemons.map((pokemon, index) =>
+                    pokemons.map((pokemon, index) =>  // Aqui não abrimos chaves pois esta função é de "uma expressão unica". Abrimos chaves na arrow function quando temos "mais de uma expressão" ou, quando queremos retornar um "return especifico", ai colocamos também um "return".
                         // Código como estava:
                         // <li key={index} >{pokemon.name}</li>
                         
