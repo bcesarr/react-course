@@ -70,7 +70,7 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // import Card from "./components/card"
 
 // export default function App(){
-//   return <Card 
+//   return <Card
 //     title="Gengar"
 //     type="Ghost"
 //     typeTwo="Poison"
@@ -95,7 +95,7 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // }
 
 // export default function App(){
-//   return <Filho> 
+//   return <Filho>
 //             {/* <p>Sou uma tag "p" passando por filho</p>  */}
 //             <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/149.png" alt="Imagem do Pokemon Dragonite" />
 //           </Filho>;
@@ -237,7 +237,7 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // import Brand from './components/brand'
 
 // export default function App() {
-//   return <Brand 
+//   return <Brand
 //           brand="master"
 //           />
 // }
@@ -295,6 +295,18 @@ export default function App(){    // O "default" só pode ser usado uma vez
 //   );
 // }
 
+// Importando o Accordion (Exercicion)
+
+// import AccordionEx from './class/hooks/useState/accordion';
+
+// export default function App () {
+//   return (
+//     <div className='app-container'>
+//       <AccordionEx />
+//     </div>
+//   );
+// }
+
 
 // ------------------------------------------------------------------ \\
 // Importando o Example de useEffect
@@ -327,12 +339,12 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // ------------------------------------------------------------------ \\
 // Importando PokemonApi
 
-import PokemonApi from './class/hooks/useState/pokemonApi'
+// import PokemonApi from './class/hooks/useState/pokemonApi'
 
-export default function App () {
-  return (
-    <div className='app-container'>
-      <PokemonApi />
-    </div>
-  );
-}
+// export default function App () {
+//   return (
+//     <div className='app-container'>
+//       <PokemonApi />
+//     </div>
+//   );
+// }
