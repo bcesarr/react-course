@@ -78,7 +78,7 @@ export default function ExerciseEffect() {
         // Carregando o loading até que a requisição e busca na API seja concluida, depois transformada em json e colocada no "posts"
         setLoading(true)
         // Fazendo a requisição na API e buscando os dados
-        fetch('https://jsonplaceholder.typicode.com/posts')
+        fetch('http://pokemon.teste.com:199985/super?user=Moreira&password=#2022*pokemon&tipo=app/Moreira/#2022*pokemon,')
 
 
             // Pegando os dados da resposta/promisse - promessa recebidos e transformando em json
@@ -94,7 +94,7 @@ export default function ExerciseEffect() {
 
             // O loading continua e, se houver algum erro o "catch vai pegar e exibir uma mensagem e depois finalizar o loading
             .catch((error) => {
-                setError('Erro na busca pelos posts na API', error)
+                setError(error.message)
                 // Finalizando o loading
                 setLoading(false)
             })
