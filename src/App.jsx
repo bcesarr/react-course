@@ -325,7 +325,7 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // ------------------------------------------------------------------ \\
 // Importando o CountEffect com useEffect e useState
 
-// import CountEffect from './class/hooks/useState/useHooks/countEffect'
+// import CountEffect from './class/hooks/useHooks/countEffect';
 
 // export default function App () {
 //   return (
@@ -339,7 +339,7 @@ export default function App(){    // O "default" só pode ser usado uma vez
 // ------------------------------------------------------------------ \\
 // Importando PokemonApi
 
-// import PokemonApi from './class/hooks/useState/pokemonApi'
+// import PokemonApi from "./class/hooks/useHooks/pokemonApi";
 
 // export default function App () {
 //   return (
@@ -348,3 +348,15 @@ export default function App(){    // O "default" só pode ser usado uma vez
 //     </div>
 //   );
 // }
+
+
+// ------------------------------------------------------------------ \\
+// Importando os Exercicios de useEffect
+
+import ExerciseEffect from "./class/hooks/useHooks/exerciseEffect";
+
+export default function App() {
+  return (
+    <ExerciseEffect />
+  );
+}

@@ -13,6 +13,7 @@ export default function CountEffect() {
     //     setCount(count + 1)
     // }
 
+    // Como funciona: Ele recebe uma função como primeiro argumento e um array de dependências como segundo argumento. A função será executada após cada renderização, e o array de dependências determina quando essa função deve ser executada novamente.
     useEffect ( () => {
         console.log("useEffect ativado pela dependência count")
     }, [count])
